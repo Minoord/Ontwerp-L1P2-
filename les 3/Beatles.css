@@ -10,7 +10,19 @@ body{
     margin: 0 auto; 
     min-height: 1220px;
     background-image: url('LetItBe_0.jpg');
-    color: white; 
+    color: white;
+    padding-top: 153px; 
+}
+.Beatle{ 
+    background-color: #ff0000a2;
+    width: 200px;
+    cursor: pointer;
+}
+#john{
+    margin-left: 119px ;
+    padding-top: 412px;
+    padding-left: 270px;
+
 }
 h3,P{
     margin: 0;
