@@ -14,15 +14,23 @@ body{
     padding-top: 153px; 
 }
 .Beatle{ 
-    background-color: #ff0000a2;
+    /* background-color: #ff0000a2;*/
     width: 200px;
     cursor: pointer;
+}
+.Beatle .naam{
+    opacity: 0;
+}
+.Beatle:hover .naam{
+    opacity: 1; 
 }
 #john{
     margin-left: 119px ;
     padding-top: 412px;
-    padding-left: 270px;
-
+    padding-left: 270px
+}
+#john .naam{
+    padding-left: 100px;
 }
 h3,P{
     margin: 0;
