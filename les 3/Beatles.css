@@ -10,11 +10,11 @@ body{
     margin: 0 auto; 
     min-height: 1220px;
     background-image: url('LetItBe_0.jpg');
-    color: white;
+    color: rgb(255, 0, 0);
     padding-top: 153px; 
 }
 .Beatle{ 
-    background-color: #ff0000a2;
+    background-color: #ff000000;
     width: 200px;
     cursor: pointer;
 }
@@ -36,12 +36,29 @@ body{
    margin-left: 605px;
    margin-top: -469px;
    padding-top: 412px;
-   padding-right: 270px;
+   padding-right: 270px; 
 }
 #paul .naam{
     margin-left: 340px;
 }
-
+#ringo{
+    margin-left:605px;
+    margin-top: 17px;
+    padding-top:410px;
+    padding-right: 270px; 
+}
+#ringo .naam{
+    margin-left: 360px;
+}
+#george{
+    margin-left: 119px ;
+    margin-top: -468px ;
+    padding-top: 410px ;
+    padding-right: 270px; 
+}
+#george .naam{
+    margin-left: 363px; 
+}
 h3,P{
     margin: 0;
     padding:0;
@@ -49,5 +66,4 @@ h3,P{
 }
 .naam{
     border-left: solid 9px red;
-        
 }
