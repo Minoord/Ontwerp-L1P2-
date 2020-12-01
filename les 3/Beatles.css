@@ -14,7 +14,7 @@ body{
     padding-top: 153px; 
 }
 .Beatle{ 
-    /* background-color: #ff0000a2;*/
+    background-color: #ff0000a2;
     width: 200px;
     cursor: pointer;
 }
@@ -27,11 +27,21 @@ body{
 #john{
     margin-left: 119px ;
     padding-top: 412px;
-    padding-left: 270px
+    padding-left: 270px;
 }
 #john .naam{
-    padding-left: 100px;
+    margin-left: 100px;
 }
+#paul{
+   margin-left: 605px;
+   margin-top: -469px;
+   padding-top: 412px;
+   padding-right: 270px;
+}
+#paul .naam{
+    margin-left: 340px;
+}
+
 h3,P{
     margin: 0;
     padding:0;
@@ -39,5 +49,5 @@ h3,P{
 }
 .naam{
     border-left: solid 9px red;
-        padding-left: 9px;
+        
 }
