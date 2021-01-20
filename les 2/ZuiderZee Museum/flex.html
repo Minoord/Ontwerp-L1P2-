@@ -4,23 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="CSS.css">
-    <title>Zuiderzee Museum</title>
     <style>
+        body{
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
         main{
-            padding: 0% 1%;
+            flex: 3 0 auto;
+            display: flex;
+            padding: 0 1%;
         }
         section{
-            width: 23%;
-            float: left;
+            flex: 1 0 23%;
             padding: 20px;
             box-sizing: border-box;
             margin: 0% 1%;
-            
         }
-        footer{
-            clear: left;
+        h1, footer{
+            flex: 1 0 auto; 
+            display: flex;
+            justify-content: center;
+            align-items: center;
         }
+
     </style>
+    <title>Zuiderzee Museum</title>
 </head>
 <body>
     <nav>
@@ -29,7 +38,7 @@
         <a href="inline-block.html">inline-block</a>
         <a href="flex.html">flexblock</a>
     </nav>
-    <h1>Zuiderzee Museum- block</h1>
+    <h1>Zuiderzee Museum - flex </h1>
     <main>
         <section>
             <P>Het Zuiderzeemuseum in Enkhuizen brengt de verhalen tot leven van mensen die vroeger rond de Zuiderzee woonden. Zie, hoor, voel, proef en ruik het dagelijkse leven rond de Zuiderzee, voordat de Afsluitdijk in 1932 de Zuiderzee veranderde in het IJsselmeer. Het Zuiderzeemuseum richt zich op de geschiedenis, actualiteit en toekomst van het gebied. De thema’s water, ambacht en gemeenschappen staan centraal.
@@ -69,7 +78,5 @@
             
         </P>
     </footer>
-    
-    
-    
 </body>
+</html>
